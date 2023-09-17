@@ -21,6 +21,7 @@ def adjacency_list(data, routes_file):
     with open(routes_file, newline='') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
+            print(row[2])
             start, end, distance = row[0], row[1], float(row[2])
             if start not in graph:
                 graph[start] = {}
@@ -77,10 +78,13 @@ def find_best_route(airports_data, routes_file, start_airport, end_airport):
 
 def main():
     airports_data = read_airports_data('airports.csv')
-    start_airport = input("Enter the starting airport code: ")
-    end_airport = input("Enter the destination airport code: ")
+    # start_airport = input("Enter the starting airport code: ")
+    start_airport = "BUR"
+    # end_airport = input("Enter the destination airport code: ")
+    end_airport = "BFL"
 
-    find_best_route(airports_data, 'routes.csv', start_airport, end_airport)
+    # find_best_route(airports_data, 'routes.csv', start_airport, end_airport)
+    find_best_route(airports_data, 'airports.csv', start_airport, end_airport)
 
 if __name__ == "__main__":
     main()
