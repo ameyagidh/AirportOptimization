@@ -10,6 +10,7 @@ It represents a step towards more responsible and enjoyable air travel, aligning
 ![djstrakrasslgo](https://github.com/ameyagidh/AirportOptimization/assets/65457905/390658b4-593b-4b0c-82a4-9c7de40611d8)
 
 
+<img width="988" alt="Screenshot 2023-09-26 at 3 20 41 AM" src="https://github.com/ameyagidh/AirportOptimization/assets/65457905/41344d92-3739-48e9-87b6-bb8772cd13b1">
 
 
 
